@@ -18,7 +18,7 @@ function Login() {
 
         try{
 
-            await axios.post("http://localhost:8000/signup",{
+            await axios.post("https://guvi-baackend.onrender.com/signup",{
                 email,password,name
             })
             .then(res=>{
