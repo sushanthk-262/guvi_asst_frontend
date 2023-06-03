@@ -17,7 +17,7 @@ function Home (){
         
         try{
             //alert("1")
-            await axios.post("http://localhost:8000/home",{
+            await axios.post("https://guvi-baackend.onrender.com/home",{
                 email,age,dob,gender,pno
             })
             //alert("2")
